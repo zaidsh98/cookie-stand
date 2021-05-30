@@ -1,0 +1,18 @@
+header h1{
+    text-align: center;
+    color: gray;
+    background-color: black;
+}
+header p{
+    background-color: cornflowerblue;
+}
+main h1 {
+    text-align: center;
+    color: brown;
+    background-color: orange;
+
+}
+div ul li{
+    color: rgb(255, 0, 119);
+    background-color: rgb(140, 210, 146);
+}
