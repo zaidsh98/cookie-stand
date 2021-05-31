@@ -57,13 +57,13 @@ seattle.renderA();
 const tokyo = {
     shopName : 'Tokyo',
     minMaxCus : 0,
-    avrgCookie : 6.3,
+    avrgCookie : 1.2,
     cookiesPerHArr :[],
     total : 0,
     custPerHour : function(){
         let sumOf = 0;
         for (let i = 0; i < hoursArr.length; i++) {
-        this.minMaxCus = randomValue(23,65);
+        this.minMaxCus = randomValue(3,24);
         sumOf = this.minMaxCus * this.avrgCookie;
         let calc = Math.floor(sumOf);
           this.cookiesPerHArr.push(calc);
@@ -108,13 +108,13 @@ tokyo.renderA();
 const dubai = {
     shopName : 'Dubai',
     minMaxCus : 0,
-    avrgCookie : 6.3,
+    avrgCookie : 3.7,
     cookiesPerHArr :[],
     total : 0,
     custPerHour : function(){
         let sumOf = 0;
         for (let i = 0; i < hoursArr.length; i++) {
-        this.minMaxCus = randomValue(23,65);
+        this.minMaxCus = randomValue(1,38);
         sumOf = this.minMaxCus * this.avrgCookie;
         let calc = Math.floor(sumOf);
           this.cookiesPerHArr.push(calc);
@@ -158,13 +158,13 @@ dubai.renderA();
 const paris = {
     shopName : 'Paris',
     minMaxCus : 0,
-    avrgCookie : 6.3,
+    avrgCookie : 2.3,
     cookiesPerHArr :[],
     total : 0,
     custPerHour : function(){
         let sumOf = 0;
         for (let i = 0; i < hoursArr.length; i++) {
-        this.minMaxCus = randomValue(23,65);
+        this.minMaxCus = randomValue(20,38);
         sumOf = this.minMaxCus * this.avrgCookie;
         let calc = Math.floor(sumOf);
           this.cookiesPerHArr.push(calc);
@@ -208,13 +208,13 @@ paris.renderA();
 const lima = {
     shopName : 'Lima',
     minMaxCus : 0,
-    avrgCookie : 6.3,
+    avrgCookie : 4.6,
     cookiesPerHArr :[],
     total : 0,
     custPerHour : function(){
         let sumOf = 0;
         for (let i = 0; i < hoursArr.length; i++) {
-        this.minMaxCus = randomValue(23,65);
+        this.minMaxCus = randomValue(2,16);
         sumOf = this.minMaxCus * this.avrgCookie;
         let calc = Math.floor(sumOf);
           this.cookiesPerHArr.push(calc);
