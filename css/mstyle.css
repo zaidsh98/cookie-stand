@@ -1,0 +1,29 @@
+header h1{
+    text-align: center;
+    color: gray;
+    background-color: black;
+}
+nav{
+        background-color: #333;
+    }
+ nav ul { 
+        position: relative;
+    }
+   
+    main{
+        background-color: burlywood;
+    }
+
+ nav ul li {
+        display: inline-block;
+        padding:20px;
+    }
+    nav ul li a{
+        color:#fff;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    div ol li {
+        display: inline-block;
+        padding:20px;
+    }
