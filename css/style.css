@@ -10,9 +10,11 @@ main h1 {
     text-align: center;
     color: brown;
     background-color: orange;
-
 }
-div ul li{
-    color: rgb(255, 0, 119);
-    background-color: rgb(140, 210, 146);
+table{
+    border-collapse: collapse;
+}
+td, th{
+    border: solid black;
+    text-align: center;
 }
