@@ -21,9 +21,31 @@ main h1 {
     background-color: orange;
 }
 table{
-    border-collapse: collapse;
+    border-collapse: separate;
+    background-color: firebrick;
+    border: 10px solid blue
+    text-indent: initial;
+    
 }
 td, th{
     border: solid black;
     text-align: center;
+}
+legend{
+    font-size: x-large;
+    padding: 3em;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+fieldset{
+    text-align: center;
+    border: 10px solid rgb(0, 238, 255);
+    display: block;
+    background-color: #E2D37E;
+}
+button{
+    border: none;
+    float: right;
+    background-color: transparent;
+    font-size: 15px;
 }
